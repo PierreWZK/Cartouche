@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "aria": "Main navigation",
+    "how": "How it works",
+    "shelf": "The shelf",
+    "faq": "Questions",
+    "open": "Open the library"
+  },
+  "hero": {
+    "eyebrow": "Day 20 · 30 days, 30 projects",
+    "line1": "The game library",
+    "accent": "that flips open.",
+    "lead": "Dig through a box of cartridges from your phone. Filter with tags, compare two ratings and put your favourites on a wooden shelf.",
+    "open": "Open the library",
+    "demo": "Try demo mode",
+    "note": "Free · Game data from IGDB and RAWG"
+  },
+  "features": {
+    "eyebrow": "From the box to your shelf",
+    "title": "Eight gestures, from the first look to the shelf.",
+    "lead": "Everything works with your thumb. Browsing needs no account.",
+    "items": [
+      { "title": "Flip through the cartridges", "text": "Each game is a cartridge: cover, title, platform, year. Scroll, and the next one slides in." },
+      { "title": "Filter with tags", "text": "Genre, platform, year, rating. Filters combine and stay in the address, so you can share a search." },
+      { "title": "Search as you type", "text": "Results follow your fingers. An old answer never overwrites a newer one." },
+      { "title": "Open the game page", "text": "Visuals, description, platforms, studios and screenshots, all on one page." },
+      { "title": "Compare two ratings", "text": "The global community rating and the Cartouche players' rating, side by side, on the page and in the list." },
+      { "title": "Put it on the shelf", "text": "Favourite a game and its cartridge slides into place on your 3D shelf. It stays there when you close the tab." },
+      { "title": "Export an image", "text": "Your shelf, as you see it, as a PNG sized for a post or a story. Built in your browser." },
+      { "title": "Share a link", "text": "A link opens your shelf for a friend, read-only. No account for them, nothing to install." }
+    ]
+  },
+  "shelf": {
+    "eyebrow": "Your favourites",
+    "title": "Your favourites, racked on real wood.",
+    "lead": "Each favourite goes on your 3D shelf, which fills up as you add games.",
+    "start": "Start my shelf",
+    "shared": "See a shared shelf",
+    "aria": "3D shelf of your favourites",
+    "export": "Export as PNG",
+    "count": "cartridges on the shelf",
+    "countOne": "cartridge on the shelf",
+    "listTitle": "On this shelf",
+    "makeYours": "Make your own",
+    "emptyCta": "Find my first games",
+    "empty": "No cartridge on the shelf yet.",
+    "offline": "Accounts are not enabled on this server: no favourites to show.",
+    "signinNeeded": "Sign in to see your shelf and add games to it.",
+    "copyLink": "Copy the share link",
+    "copied": "Link copied.",
+    "error": "The link could not be created.",
+    "sharedTitle": "Shared shelf",
+    "sharedMissing": "This shelf does not exist or is no longer shared."
+  },
+  "profile": {
+    "title": "My visibility",
+    "username": "Username",
+    "usernameHint": "3 to 20 characters: letters, digits, dashes and underscores.",
+    "public": "Public shelf",
+    "publicOn": "Your shelf is visible to everyone, under your username.",
+    "publicOff": "Your shelf is private: nobody can see it, even with the link.",
+    "pageLink": "Your public page",
+    "save": "Save",
+    "saved": "Profile saved.",
+    "deleteTitle": "Delete my account",
+    "deleteHint": "Your shelf, favourites and ratings are erased for good. Enter your password to confirm.",
+    "deleteButton": "Delete permanently",
+    "errors": {
+      "bad_username": "Invalid or reserved username.",
+      "username_taken": "This username is already taken.",
+      "bad_password": "Wrong password.",
+      "network": "Could not save. Try again."
+    }
+  },
+  "exportPng": {
+    "title": "Export as PNG",
+    "square": "Square",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "defaultName": "My collection",
+    "more": "and {n} more",
+    "failed": "Export failed. Try again."
+  },
+  "publicShelf": {
+    "missing": "This shelf does not exist or is not public."
+  },
+  "trust": {
+    "items": [
+      { "title": "Favourites on your account", "text": "Your favourites and ratings are saved. Find them again on any device." },
+      { "title": "Offline demo mode", "text": "A sample catalogue that works without a network connection or an account." },
+      { "title": "A huge catalogue", "text": "The game data comes from RAWG, the large open database of video games." }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "What people ask us.",
+    "items": [
+      { "q": "Do I need an account?", "a": "To browse, no: the catalogue and demo mode are open. To keep your favourites and ratings, yes: they are saved to your account." },
+      { "q": "What happens if I change phone?", "a": "Log in again and your shelf comes back exactly as it was." },
+      { "q": "Where does the Cartouche community rating come from?", "a": "From Cartouche accounts: one rating out of 5 per game and per person." },
+      { "q": "Can a friend change my shelf?", "a": "No. A shared link shows it read-only." },
+      { "q": "What is demo mode?", "a": "A sample catalogue with local data, which works without a network connection or an account." }
+    ]
+  },
+  "cta": {
+    "title": "There is room left on the shelf.",
+    "open": "Open the library"
+  },
+  "catalogue": {
+    "title": "Browse",
+    "searchLabel": "Search for a game",
+    "searchPlaceholder": "Search for a game…",
+    "genres": "Genres",
+    "decades": "Decade",
+    "rating": "Rating",
+    "ratingFrom": "{n} and up",
+    "platforms": "Platforms",
+    "sortLabel": "Sort",
+    "sort": { "name": "Name", "year": "Year", "rating": "Rating" },
+    "count": "games",
+    "countOne": "game",
+    "ratingRawg": "RAWG",
+    "ratingCart": "Cartouche",
+    "loading": "Loading…",
+    "empty": "No game matches these filters."
+  },
+  "fiche": {
+    "back": "Back to the library",
+    "notFound": "This game is not in the library.",
+    "platforms": "Platforms and genres",
+    "ratingRawg": "Global community · RAWG",
+    "ratingCart": "Cartouche community",
+    "addShelf": "Add to shelf",
+    "shelfSoon": "Accounts are not available in demo mode.",
+    "removeShelf": "Remove from shelf",
+    "screenshots": "Screenshots",
+    "shotAlt": "Screenshot {n} of {name}",
+    "signinToAdd": "Sign in to add this game",
+    "yourRating": "Your rating out of 5",
+    "rated": "Thanks, your rating is saved.",
+    "error": "Something went wrong. Try again."
+  },
+  "account": {
+    "link": "Account",
+    "title": "My account",
+    "off": "Accounts are not enabled on this server. Demo mode stays available.",
+    "explore": "Browse the library",
+    "signedAs": "Signed in as",
+    "myShelf": "See my shelf",
+    "logout": "Sign out",
+    "signin": "Sign in",
+    "create": "Create an account",
+    "email": "Email",
+    "password": "Password",
+    "hint": "At least 8 characters. Your favourites and ratings belong to this account.",
+    "errors": {
+      "bad_credentials": "Wrong email or password.",
+      "email_taken": "An account already exists with this email.",
+      "bad_email": "This email is not valid.",
+      "bad_password": "The password must be at least 8 characters.",
+      "too_many_attempts": "Too many attempts with this email. Try again in 15 minutes.",
+      "network": "Cannot reach the server. Try again later."
+    }
+  },
+  "appnav": {
+    "aria": "App navigation",
+    "explore": "Browse",
+    "daily": "Daily game",
+    "shelf": "My shelf",
+    "home": "Back to the home page",
+    "demo": "Demo"
+  },
+  "daily": {
+    "title": "Daily game",
+    "lead": "Put these five games in release order, from the oldest to the most recent.",
+    "up": "Move {name} up",
+    "down": "Move {name} down",
+    "validate": "Check my order",
+    "score": "{score} out of 5 in the right place",
+    "perfect": "No mistakes!",
+    "streak": "Streak: {n} day(s)",
+    "alreadyPlayed": "You have already played today. Come back tomorrow for a new draw.",
+    "otherDay": "A game from another day: you can see the release order, but you cannot play again.",
+    "share": "Share",
+    "copy": "Copy the link",
+    "copied": "Link copied.",
+    "copyFailed": "Automatic copy failed: copy the link below.",
+    "shareText": "Cartouche · Daily game {day}"
+  },
+  "footer": {
+    "project": "Cartouche · day 20 of 30",
+    "data": "Game data: IGDB and RAWG",
+    "parent": "30 days, 30 projects",
+    "language": "Language"
+  },
+  "siteTitle": "Cartouche · The game library that flips open"
+}

@@ -8,6 +8,22 @@ Ce document est notre contrat : on le suit étape par étape, et toute décision
 
 Révision du 2 novembre 2026 : ajout de l'étagère 3D, du partage, des notes communautaires et des pistes « à faire si possible ».
 
+## 0. Décisions du 2 novembre (elles prévalent sur les sections 2 et 4)
+
+- **Architecture** : un seul dépôt, deux dossiers. `front/` (Angular, site statique sur Coolify) et `api/` (Node.js + Express, TypeScript). Le front n'appelle jamais RAWG ni IGDB directement.
+- **Données de jeux** : RAWG et IGDB, interrogés par l'API, avec cache. RAWG fournit le catalogue, les facettes (genres, plateformes) et la fiche ; IGDB ne sert qu'à compléter la description quand RAWG n'en a pas. Les clés vivent dans les variables d'environnement du serveur, jamais dans le front.
+- **Repli démo** : le front interroge `/api/health`. Si le serveur n'a pas de clé RAWG, ou ne répond pas, il bascule sur les données locales, sans rien afficher d'erreur.
+- **Comptes** : inscription et connexion par email et mot de passe, sans vérification par email pour le MVP. Remplace « lecture seule, pas de compte ».
+- **Favoris** : stockés côté serveur, en PostgreSQL, liés au compte. Remplace « les favoris restent dans le navigateur ».
+- **Étagère 3D** : WebGL avec Three.js, cartouches générées avec le skill `img2threejs`. Tranche la question 8.4 (le choix est délégué).
+- **Démo** : route `/demo/<identifiant>`, données locales, sans clé ni compte.
+- **Langue** : interface en français par défaut (maquette). Les textes sont dans des fichiers de traduction, français et anglais, et une bascule dans le pied de page permet de passer de l'un à l'autre. Remplace « en anglais par défaut ».
+- **Look** : la charte graphique de la maquette validée est la référence (fichiers « Charte graphique », « La cartouche (composant) », « Étagère 3D » et « Site vitrine », mobile et ordinateur). Nuit, ambre, typographie Bricolage Grotesque (titres), Manrope (texte) et JetBrains Mono (étiquettes). Remplace le « gris NES » proposé au départ.
+- **Jeu quotidien** : remettre des jeux dans l'ordre de sortie (question 8.1, option C).
+- **Note communautaire Cartouche** : une note par compte et par jeu, en base (question 8.3, oui).
+- **Lien partagé** : `cartouche.projectp.fr/e/<identifiant>`, identifiant en base (remplace l'encodage dans l'adresse).
+- **Vitrine** : page d'accueil marketing, étape 0 du MVP (section 2).
+
 ## 1. L'idée
 
 Une ludothèque de jeux vidéo en **Angular**, pensée comme une vieille boîte de cartouches qu'on fouille sur son téléphone. Les jeux sont des **cartouches** : on les parcourt, on les filtre à l'aide d'étiquettes, on les met en favoris, et les favoris s'empilent sur une **étagère 3D** qu'on peut exporter en image et partager avec ses amis.
@@ -16,6 +32,7 @@ Une ludothèque de jeux vidéo en **Angular**, pensée comme une vieille boîte 
 
 ## 2. MVP — ce qui doit fonctionner à la fin
 
+0. **Page vitrine** (étape 0, avant l'application) : page d'accueil à `/`, sur la maquette validée. Hero, présentation en quatre gestes, aperçu de l'étagère, FAQ (dont « faut-il créer un compte ? », avec la réponse qui correspond aux comptes), appel à l'action vers l'application.
 1. **Mobile first** : interface pensée pour un écran de téléphone, puis adaptée à l'ordinateur. Pas de défilement horizontal, cibles tactiles suffisantes.
 2. **Liste en cartouches** : chaque jeu est une cartouche (jaquette, titre, plateforme, année). Liste paginée avec défilement infini.
 3. **Filtres combinés et tri** (genre, plateforme, année, note), gardés dans l'adresse pour pouvoir partager une recherche.

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "src/app/daily/daily-page.ts"
+        ],
+        "createdAt": "2026-11-03T09:57:49.421Z",
+        "reason": "faux positif : l'img n'est rendu que dans un @if (g.cover), le src n'est jamais vide (vérifié dans le code, non confirmé par l'utilisateur)"
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "src/app/fiche.ts"
+        ],
+        "createdAt": "2026-11-03T10:57:54.278Z",
+        "reason": "faux positif : la liste n'est rendue que si game.screenshots contient des adresses (@if), le src n'est jamais vide (non confirmé par l'utilisateur)"
+      }
+    ]
+  }
+}

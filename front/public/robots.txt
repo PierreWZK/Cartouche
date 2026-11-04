@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /api/
+Disallow: /connexion
+Disallow: /etagere
+Disallow: /e/
+Disallow: /demo/
+
+Sitemap: https://cartouche.projectp.fr/sitemap.xml
