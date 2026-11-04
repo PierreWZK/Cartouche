@@ -1,0 +1,86 @@
+/* Tokens tirés de la charte graphique (maquette validée). */
+:root {
+  --fond: #0e0e10;
+  --surface: #181518;
+  --surface-haute: #232327;
+  --ligne: #3a3a3f;
+  --brume: #8a8a92;
+  --ambre: #f0a84e;
+  --ambre-texte: #1a1206;
+  --ciel: #8ec5e8;
+  --encre: #f4eee6;
+
+  --font-titre: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-texte: 'Manrope', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--encre);
+  font-family: var(--font-texte);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-titre);
+  line-height: 1.05;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ambre);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Boutons communs à toutes les pages. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 10px;
+  border: 1px solid var(--ligne);
+  background: var(--surface-haute);
+  color: var(--encre);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, #f6c07a, var(--ambre));
+  color: var(--ambre-texte);
+  border-color: transparent;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

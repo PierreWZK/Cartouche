@@ -1,0 +1,544 @@
+[
+  {
+    "id": "american-chopper",
+    "name": "American Chopper",
+    "year": 2004,
+    "studio": "",
+    "platforms": [
+      "Xbox",
+      "PC (Microsoft Windows)",
+      "PlayStation 2"
+    ],
+    "genres": [
+      "Racing"
+    ],
+    "ratingRawg": 4.9,
+    "ratingCart": null,
+    "description": "Be hired into the shop of the hit TV series American Chopper. Here's your chance to ride the bikes built by the Teutuls. Choose from the POW/MIA Bike, Jet Bike, Black Widow Bike, and others. You're also sent on missions to create your very own, original themed chopper that rivals those built by Paul Sr. and Paul Jr. Experience first-hand all of the hard work, drama, and thrill of creating one of the most beautiful bikes on the road today.",
+    "art": "linear-gradient(#2b2350, #6b3f7a)",
+    "band": "#1f3c7a",
+    "cover": "/demo/covers/american-chopper.jpg",
+    "screenshots": []
+  },
+  {
+    "id": "animal-company",
+    "name": "Animal Company",
+    "year": 2024,
+    "studio": "Wooster Games",
+    "platforms": [
+      "Meta Quest 2",
+      "SteamVR"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "ratingRawg": 4.85,
+    "ratingCart": null,
+    "description": "Enter the chaotic and fun world of Animal Company, where survival meets pure chaos in this multiplayer VR adventure. Whether you’re exploring eerie environments, customizing your character in the Lab, or braving the terrors that await you and your friends, the excitement never stops. With weekly updates, there’s always something fresh to experience.",
+    "art": "linear-gradient(#f0a84e, #b8582f)",
+    "band": "#8a3f22",
+    "cover": "/demo/covers/animal-company.jpg",
+    "screenshots": [
+      "/demo/screenshots/animal-company-1.jpg",
+      "/demo/screenshots/animal-company-2.jpg",
+      "/demo/screenshots/animal-company-3.jpg"
+    ]
+  },
+  {
+    "id": "super-metroid",
+    "name": "Super Metroid",
+    "year": 1994,
+    "studio": "Nintendo R&D1",
+    "platforms": [
+      "Super Nintendo Entertainment System",
+      "Wii",
+      "Wii U",
+      "New Nintendo 3DS",
+      "Super Famicom"
+    ],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ],
+    "ratingRawg": 4.8,
+    "ratingCart": null,
+    "description": "The Space Pirates, merciless agents of the evil Mother Brain, have stolen the last Metroid from a research station, and once again Mother Brain threatens the safety of the galaxy! Samus Aran must don her awesome array of high-tech weaponry to retrieve the deadly Metroid hidden deep within the cave-riddled planet Zebes. Super Metroid features excellent graphics, with a huge variety of enemies and worlds to explore. The side-view action will be familiar to many players, only now there are new weapons and items, including the Grappling Beam, which allows Samus to swing across large chasms, and the X-Ray Scope, which reveals secret passages.",
+    "art": "linear-gradient(#5a2a2a, #1c1b2e)",
+    "band": "#8a2b2b",
+    "cover": "/demo/covers/super-metroid.jpg",
+    "screenshots": [
+      "/demo/screenshots/super-metroid-1.jpg",
+      "/demo/screenshots/super-metroid-2.jpg",
+      "/demo/screenshots/super-metroid-3.jpg"
+    ]
+  },
+  {
+    "id": "the-legend-of-zelda-a-link-to-the-past",
+    "name": "The Legend of Zelda: A Link to the Past",
+    "year": 1991,
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "platforms": [
+      "Satellaview",
+      "Super Nintendo Entertainment System",
+      "Wii",
+      "Wii U",
+      "New Nintendo 3DS",
+      "Super Famicom"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "ratingRawg": 4.8,
+    "ratingCart": null,
+    "description": "Venture back to Hyrule and an age of magic and heroes. The predecessors of Link and Zelda face monsters on the march when a menacing magician takes over the kingdom. Only you can prevent his evil plot from shattering the land of Hyrule.\n\nIn your quest, you'll venture into twisting mazes, dungeons, palaces and shadowy forests. Test your mettle with mighty swords and magical weapons. Or heft a boulder and hurl it at your enemies. If the going gets tough, dive into a river - you can swim to escape! Learn powerful spells, locate magical artifacts and solve the mysteries of the evil magician and the hidden realm of Hyrule.",
+    "art": "linear-gradient(#5a2a2a, #1c1b2e)",
+    "band": "#8a2b2b",
+    "cover": "/demo/covers/the-legend-of-zelda-a-link-to-the-past.jpg",
+    "screenshots": [
+      "/demo/screenshots/the-legend-of-zelda-a-link-to-the-past-1.jpg",
+      "/demo/screenshots/the-legend-of-zelda-a-link-to-the-past-2.jpg",
+      "/demo/screenshots/the-legend-of-zelda-a-link-to-the-past-3.jpg"
+    ]
+  },
+  {
+    "id": "super-mario-world",
+    "name": "Super Mario World",
+    "year": 1990,
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "platforms": [
+      "Arcade",
+      "Super Nintendo Entertainment System",
+      "Wii",
+      "Wii U",
+      "New Nintendo 3DS",
+      "Super Famicom"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "ratingRawg": 4.8,
+    "ratingCart": null,
+    "description": "A 2D platformer and first entry on the SNES in the Super Mario franchise, Super Mario World follows Mario as he attempts to defeat Bowser's underlings and rescue Princess Peach from his clutches. The game features a save system, a less linear world map, an expanded movement arsenal and numerous new items for Mario, alongside new approaches to level design and art direction.",
+    "art": "linear-gradient(#3a6f9a, #1d3d5a)",
+    "band": "#1d3d5a",
+    "cover": "/demo/covers/super-mario-world.jpg",
+    "screenshots": [
+      "/demo/screenshots/super-mario-world-1.jpg",
+      "/demo/screenshots/super-mario-world-2.jpg",
+      "/demo/screenshots/super-mario-world-3.jpg"
+    ]
+  },
+  {
+    "id": "suikoden-ii",
+    "name": "Suikoden II",
+    "year": 1998,
+    "studio": "Konami",
+    "platforms": [
+      "PlayStation 3",
+      "PC (Microsoft Windows)",
+      "PlayStation Vita",
+      "PlayStation",
+      "PlayStation Portable"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ],
+    "ratingRawg": 4.8,
+    "ratingCart": null,
+    "description": "Suikoden II is a role-playing game developed and published by Konami for the PlayStation. Set in a world of warring nations, the game follows a silent protagonist caught between the Kingdom of Highland and the City-States of Jowston. Gameplay combines turn-based party combat, one-on-one duels, and grid-based strategic army battles. Players can recruit over 100 characters, many of whom join the party or contribute to a home base that expands throughout the game. Save data from the original Suikoden can be imported to carry over certain characters and story details.",
+    "art": "linear-gradient(#2c4a3c, #7fa395)",
+    "band": "#2f5b48",
+    "cover": "/demo/covers/suikoden-ii.jpg",
+    "screenshots": [
+      "/demo/screenshots/suikoden-ii-1.jpg",
+      "/demo/screenshots/suikoden-ii-2.jpg",
+      "/demo/screenshots/suikoden-ii-3.jpg"
+    ]
+  },
+  {
+    "id": "the-last-of-us-remastered",
+    "name": "The Last of Us Remastered",
+    "year": 2014,
+    "studio": "Naughty Dog",
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "ratingRawg": 4.75,
+    "ratingCart": null,
+    "description": "The Last of Us Remastered is an updated release of the PS3 game The Last of Us. It is identical to the PS3 version but runs at a 1080p resolution and incorporates character models with a higher resolution. There are also improved shadows and lighting, upgraded textures, 60 frames per second and other types of improvements. In addition to the base game, two map packs and the expansion The Last of Us: Left Behind are included.",
+    "art": "linear-gradient(#2b2350, #6b3f7a)",
+    "band": "#1f3c7a",
+    "cover": "/demo/covers/the-last-of-us-remastered.jpg",
+    "screenshots": [
+      "/demo/screenshots/the-last-of-us-remastered-1.jpg",
+      "/demo/screenshots/the-last-of-us-remastered-2.jpg",
+      "/demo/screenshots/the-last-of-us-remastered-3.jpg"
+    ]
+  },
+  {
+    "id": "elden-ring",
+    "name": "Elden Ring",
+    "year": 2022,
+    "studio": "FromSoftware",
+    "platforms": [
+      "Xbox Series X|S",
+      "PlayStation 4",
+      "Nintendo Switch 2",
+      "PC (Microsoft Windows)",
+      "PlayStation 5",
+      "Xbox One"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "ratingRawg": 4.75,
+    "ratingCart": null,
+    "description": "Elden Ring is an action RPG developed by FromSoftware and published by Bandai Namco Entertainment, released in February 2022. Directed by Hidetaka Miyazaki, with world-building contributions from novelist George R. R. Martin, the game features an expansive open world called the Lands Between. Players assume the role of a customisable character known as the Tarnished, who must explore this world, battle formidable enemies, and seek to restore the Elden Ring to become the Elden Lord.\n\nThe game builds on the challenging gameplay mechanics familiar from the Dark Souls series but introduces a more open-ended structure with vast exploration, dynamic weather, and a day-night cycle. It offers deep lore, complex characters, and an interconnected world filled with secrets, dungeons, and powerful bos",
+    "art": "linear-gradient(#2c4a3c, #7fa395)",
+    "band": "#2f5b48",
+    "cover": "/demo/covers/elden-ring.jpg",
+    "screenshots": [
+      "/demo/screenshots/elden-ring-1.jpg",
+      "/demo/screenshots/elden-ring-2.jpg",
+      "/demo/screenshots/elden-ring-3.jpg"
+    ]
+  },
+  {
+    "id": "metal-gear-solid-3-subsistence",
+    "name": "Metal Gear Solid 3: Subsistence",
+    "year": 2005,
+    "studio": "Konami Computer Entertainment Japan",
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "Adventure"
+    ],
+    "ratingRawg": 4.75,
+    "ratingCart": null,
+    "description": "Metal Gear Solid 3: Subsistence continues the Metal Gear Solid series tradition of follow-up enhanced, international version releases.\nSubsistence's online multiplayer component, titled Metal Gear Online, consists of five tournament-style game modes, each with a capacity of up to eight players. This mode pits players, each playing as a generic soldier against each other in deathmatch battles and variations of capture the flag, using stages, items, maneuvers, and units (such as the KGB, GRU or Ocelot Unit) from the main game.",
+    "art": "linear-gradient(#5a2a2a, #1c1b2e)",
+    "band": "#8a2b2b",
+    "cover": "/demo/covers/metal-gear-solid-3-subsistence.jpg",
+    "screenshots": [
+      "/demo/screenshots/metal-gear-solid-3-subsistence-1.jpg",
+      "/demo/screenshots/metal-gear-solid-3-subsistence-2.jpg",
+      "/demo/screenshots/metal-gear-solid-3-subsistence-3.jpg"
+    ]
+  },
+  {
+    "id": "final-fantasy-iii--7",
+    "name": "Final Fantasy III",
+    "year": 1994,
+    "studio": "Square",
+    "platforms": [
+      "Super Nintendo Entertainment System",
+      "Wii",
+      "Wii U",
+      "New Nintendo 3DS",
+      "Super Famicom"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "ratingRawg": 4.75,
+    "ratingCart": null,
+    "description": "Final Fantasy VI is the sixth main installment in the Final Fantasy series, developed and published by Square. It was the final title in the series to feature two-dimensional graphics, and the first story that did not revolve around crystals.\n\nThe game gives players up to fourteen playable characters, the largest cast in the series, and features the Active Time Battle pseudo-turn based menu command system. A party can consist of up to four characters, though some events require the player to assemble three different parties of up to four and switch between them.\n\nEach character has a unique command ability, such as Terra's Trance, Locke's Steal, Edgar's Tools or Sabin's Blitz, and can also learn Magic spells from earning AP from battles with magicite equipped. Each character's rare Despera",
+    "art": "linear-gradient(#2b2350, #6b3f7a)",
+    "band": "#1f3c7a",
+    "cover": "/demo/covers/final-fantasy-iii--7.jpg",
+    "screenshots": [
+      "/demo/screenshots/final-fantasy-iii--7-1.jpg",
+      "/demo/screenshots/final-fantasy-iii--7-2.jpg",
+      "/demo/screenshots/final-fantasy-iii--7-3.jpg"
+    ]
+  },
+  {
+    "id": "baldurs-gate-iii",
+    "name": "Baldur's Gate III",
+    "year": 2023,
+    "studio": "Larian Studios",
+    "platforms": [
+      "Google Stadia",
+      "Xbox Series X|S",
+      "Linux",
+      "PC (Microsoft Windows)",
+      "PlayStation 5",
+      "Mac"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Adventure"
+    ],
+    "ratingRawg": 4.75,
+    "ratingCart": null,
+    "description": "An ancient evil has returned to Baldur's Gate, intent on devouring it from the inside out. The fate of Faerun lies in your hands. Alone, you may resist. But together, you can overcome.",
+    "art": "linear-gradient(#2f5d4a, #d8b24a)",
+    "band": "#c9a23a",
+    "cover": "/demo/covers/baldurs-gate-iii.jpg",
+    "screenshots": [
+      "/demo/screenshots/baldurs-gate-iii-1.jpg",
+      "/demo/screenshots/baldurs-gate-iii-2.jpg",
+      "/demo/screenshots/baldurs-gate-iii-3.jpg"
+    ]
+  },
+  {
+    "id": "super-smash-bros-melee",
+    "name": "Super Smash Bros. Melee",
+    "year": 2001,
+    "studio": "HAL Laboratory",
+    "platforms": [
+      "Nintendo GameCube"
+    ],
+    "genres": [
+      "Fighting",
+      "Platform"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "A crossover platform fighting game featuring characters from Nintendo franchises including Mario, The Legend of Zelda, Star Fox, Pokémon, and Fire Emblem. Unlike traditional fighters, the goal is to knock opponents off the stage rather than deplete a health bar. Damage accumulates as a percentage, increasing the distance a character is launched when hit. Players use simple one-button inputs combined with joystick directions to execute moves. The game supports up to four players simultaneously and includes various single-player modes alongside its multiplayer focus. Its fast-paced, aggressive gameplay fostered a long-running competitive esports scene that persisted well beyond the game's original lifespan.",
+    "art": "linear-gradient(#2b2350, #6b3f7a)",
+    "band": "#1f3c7a",
+    "cover": "/demo/covers/super-smash-bros-melee.jpg",
+    "screenshots": [
+      "/demo/screenshots/super-smash-bros-melee-1.jpg",
+      "/demo/screenshots/super-smash-bros-melee-2.jpg",
+      "/demo/screenshots/super-smash-bros-melee-3.jpg"
+    ]
+  },
+  {
+    "id": "persona-5-royal",
+    "name": "Persona 5 Royal",
+    "year": 2019,
+    "studio": "P Studio",
+    "platforms": [
+      "Xbox Series X|S",
+      "PlayStation 4",
+      "PC (Microsoft Windows)",
+      "PlayStation 5",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "Persona 5 Royal is an enhanced version of the turn-based role-playing game Persona 5, set in modern-day Tokyo. Players control a high school student who leads a group of secret vigilantes called the Phantom Thieves of Hearts, exploring supernatural dungeons called Palaces to change the hearts of corrupt adults. The game combines dungeon crawling and turn-based combat with social simulation elements, where players manage daily activities, build relationships, and develop character statistics across a school year. Royal adds new characters, a third semester, an additional Palace, new music, and expanded story content to the original game.",
+    "art": "linear-gradient(#f0a84e, #b8582f)",
+    "band": "#8a3f22",
+    "cover": "/demo/covers/persona-5-royal.jpg",
+    "screenshots": [
+      "/demo/screenshots/persona-5-royal-1.jpg",
+      "/demo/screenshots/persona-5-royal-2.jpg",
+      "/demo/screenshots/persona-5-royal-3.jpg"
+    ]
+  },
+  {
+    "id": "the-witcher-3-wild-hunt-blood-and-wine",
+    "name": "The Witcher 3: Wild Hunt - Blood and Wine",
+    "year": 2016,
+    "studio": "CD Projekt RED",
+    "platforms": [
+      "Xbox Series X|S",
+      "PlayStation 4",
+      "PC (Microsoft Windows)",
+      "PlayStation 5",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "Blood and Wine is the second major expansion to The Witcher 3: Wild Hunt.\n\nThe players will accompany Geralt of Rivia to the region of Toussaint, one of the few places in the Witcher universe which has remained largely untouched by the war. The calm, laid-back atmosphere holds a dark and bloody secret that only the White Wolf can uncover; the expansion features new items for players to collect on their adventure and introduces previously unknown characters.",
+    "art": "linear-gradient(#f0a84e, #b8582f)",
+    "band": "#8a3f22",
+    "cover": "/demo/covers/the-witcher-3-wild-hunt-blood-and-wine.jpg",
+    "screenshots": [
+      "/demo/screenshots/the-witcher-3-wild-hunt-blood-and-wine-1.jpg",
+      "/demo/screenshots/the-witcher-3-wild-hunt-blood-and-wine-2.jpg",
+      "/demo/screenshots/the-witcher-3-wild-hunt-blood-and-wine-3.jpg"
+    ]
+  },
+  {
+    "id": "god-of-war--1",
+    "name": "God of War",
+    "year": 2018,
+    "studio": "Santa Monica Studio",
+    "platforms": [
+      "PlayStation 4",
+      "PC (Microsoft Windows)",
+      "PlayStation 5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "God of War is the sequel to God of War III as well as a continuation of the canon God of War chronology. Unlike previous installments, this game focuses on Norse mythology and follows an older and more seasoned Kratos and his son Atreus in the years since the third game. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.",
+    "art": "linear-gradient(#2b2350, #6b3f7a)",
+    "band": "#1f3c7a",
+    "cover": "/demo/covers/god-of-war--1.jpg",
+    "screenshots": [
+      "/demo/screenshots/god-of-war--1-1.jpg",
+      "/demo/screenshots/god-of-war--1-2.jpg",
+      "/demo/screenshots/god-of-war--1-3.jpg"
+    ]
+  },
+  {
+    "id": "super-mario-galaxy",
+    "name": "Super Mario Galaxy",
+    "year": 2007,
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "platforms": [
+      "Wii",
+      "Wii U"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "A 3D platformer and first Wii entry in the Super Mario franchise, Super Mario Galaxy sees Mario jump across planets and galaxies with varying items, enemies, geographies and gravity mechanics in order to reach his enemy Bowser, who has attacked the Mushroom Kingdom and hijacked Princess Peach's castle with her inside.",
+    "art": "linear-gradient(#2f5d4a, #d8b24a)",
+    "band": "#c9a23a",
+    "cover": "/demo/covers/super-mario-galaxy.jpg",
+    "screenshots": [
+      "/demo/screenshots/super-mario-galaxy-1.jpg",
+      "/demo/screenshots/super-mario-galaxy-2.jpg",
+      "/demo/screenshots/super-mario-galaxy-3.jpg"
+    ]
+  },
+  {
+    "id": "super-mario-world-2-yoshi-s-island",
+    "name": "Super Mario World 2: Yoshi's Island",
+    "year": 1995,
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "platforms": [
+      "Satellaview",
+      "Super Nintendo Entertainment System",
+      "Super Famicom"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "Super Mario World 2: Yoshi's Island is a platform video game acting as a prequel to 1990's Super Mario World. The game casts players as Yoshi as he escorts Baby Mario through 48 levels in order to reunite him with his brother Luigi, who had been kidnapped by Baby Bowser's minions. As a Super Mario series platformer, Yoshi runs and jumps to reach the end of the level while solving puzzles and collecting items. In a style new to the series, the game has a hand-drawn aesthetic and is the first to have Yoshi as its main character. The game introduces his signature abilities to flutter jump, produce eggs from swallowed enemies, and transform into vehicles.",
+    "art": "linear-gradient(#3a6f9a, #1d3d5a)",
+    "band": "#1d3d5a",
+    "cover": "/demo/covers/super-mario-world-2-yoshi-s-island.jpg",
+    "screenshots": [
+      "/demo/screenshots/super-mario-world-2-yoshi-s-island-1.jpg",
+      "/demo/screenshots/super-mario-world-2-yoshi-s-island-2.jpg",
+      "/demo/screenshots/super-mario-world-2-yoshi-s-island-3.jpg"
+    ]
+  },
+  {
+    "id": "sekiro-shadows-die-twice-game-of-the-year-edition",
+    "name": "Sekiro: Shadows Die Twice - Game of the Year Edition",
+    "year": 2020,
+    "studio": "FromSoftware",
+    "platforms": [
+      "PlayStation 4",
+      "PC (Microsoft Windows)",
+      "Xbox One"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "A free update for Sekiro: Shadows Die Twice, released following its Game of the Year win, which added several features alongside the edition name change.\n\nThe Game of the Year Edition update includes:\n\n- Reflection and Gauntlet of Strength – new boss challenge modes\n- Remnants – messages and recordings of player actions that other players can view and rate\n- Three unlockable cosmetic skins",
+    "art": "linear-gradient(#2c4a3c, #7fa395)",
+    "band": "#2f5b48",
+    "cover": "/demo/covers/sekiro-shadows-die-twice-game-of-the-year-edition.jpg",
+    "screenshots": [
+      "/demo/screenshots/sekiro-shadows-die-twice-game-of-the-year-edition-1.jpg",
+      "/demo/screenshots/sekiro-shadows-die-twice-game-of-the-year-edition-2.jpg",
+      "/demo/screenshots/sekiro-shadows-die-twice-game-of-the-year-edition-3.jpg"
+    ]
+  },
+  {
+    "id": "the-binding-of-isaac-repentance",
+    "name": "The Binding of Isaac: Repentance",
+    "year": 2021,
+    "studio": "Edmund McMillen",
+    "platforms": [
+      "Xbox Series X|S",
+      "PlayStation 4",
+      "PC (Microsoft Windows)",
+      "PlayStation 5",
+      "Xbox One"
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "The Binding of Isaac: Repentance is the ultimate edition of the genre-defining roguelike, with so many additions and improvements that it feels like a brand new game. Experience Isaac's adventures with new twists, terrifying turns and over 500 hours of new gameplay!",
+    "art": "linear-gradient(#3a6f9a, #1d3d5a)",
+    "band": "#1d3d5a",
+    "cover": "/demo/covers/the-binding-of-isaac-repentance.jpg",
+    "screenshots": [
+      "/demo/screenshots/the-binding-of-isaac-repentance-1.jpg",
+      "/demo/screenshots/the-binding-of-isaac-repentance-2.jpg",
+      "/demo/screenshots/the-binding-of-isaac-repentance-3.jpg"
+    ]
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "year": 2018,
+    "studio": "Rockstar Games",
+    "platforms": [
+      "Google Stadia",
+      "PlayStation 4",
+      "PC (Microsoft Windows)",
+      "Xbox One"
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "ratingRawg": 4.7,
+    "ratingCart": null,
+    "description": "Red Dead Redemption 2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang, on the run across America at the dawn of the modern age.",
+    "art": "linear-gradient(#3a6f9a, #1d3d5a)",
+    "band": "#1d3d5a",
+    "cover": "/demo/covers/red-dead-redemption-2.jpg",
+    "screenshots": [
+      "/demo/screenshots/red-dead-redemption-2-1.jpg",
+      "/demo/screenshots/red-dead-redemption-2-2.jpg",
+      "/demo/screenshots/red-dead-redemption-2-3.jpg"
+    ]
+  }
+]

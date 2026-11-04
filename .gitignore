@@ -1,0 +1,11 @@
+# Dépendances et sorties de build
+node_modules/
+dist/
+
+# Secrets : clés API et base, jamais dans le dépôt
+.env
+.env.*
+!.env.example
+
+# État local du skill img2threejs
+.img2threejs/

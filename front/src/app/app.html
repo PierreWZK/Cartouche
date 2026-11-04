@@ -1,0 +1,128 @@
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Cartouche">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-name">Cartouche</span>
+  </a>
+  <nav class="nav-links" [attr.aria-label]="d().nav.aria">
+    <a href="#features">{{ d().nav.how }}</a>
+    <a href="#shelf">{{ d().nav.shelf }}</a>
+    <a href="#faq">{{ d().nav.faq }}</a>
+  </nav>
+  <a class="btn btn-primary btn-small" routerLink="/ludotheque">{{ d().nav.open }}</a>
+  <app-lang-switch />
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ d().hero.eyebrow }}</p>
+      <h1>
+        {{ d().hero.line1 }}
+        <span class="accent">{{ d().hero.accent }}</span>
+      </h1>
+      <p class="lead">{{ d().hero.lead }}</p>
+      <div class="actions">
+        <a class="btn btn-primary" routerLink="/ludotheque">{{ d().hero.open }}</a>
+        <a class="btn btn-ghost" routerLink="/demo">{{ d().hero.demo }}</a>
+      </div>
+      <p class="note">{{ d().hero.note }}</p>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-stack">
+        @for (c of heroCarts; track c.title) {
+          <div class="cart" [style.--art]="c.art" [style.--band]="c.band">
+            <div class="cart-art"></div>
+            <div class="cart-label">
+              <span class="cart-title">{{ c.title }}</span>
+              <span class="cart-meta">{{ c.meta }}</span>
+            </div>
+          </div>
+        }
+      </div>
+      <div class="hero-wood"></div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <p class="eyebrow">{{ d().features.eyebrow }}</p>
+    <h2>{{ d().features.title }}</h2>
+    <p class="lead">{{ d().features.lead }}</p>
+
+    <ol class="features">
+      @for (f of d().features.items; track f.title; let i = $index) {
+        <li class="feature">
+          <span class="num">{{ (i + 1).toString().padStart(2, '0') }}</span>
+          <h3>{{ f.title }}</h3>
+          <p>{{ f.text }}</p>
+        </li>
+      }
+    </ol>
+  </section>
+
+  <section class="section shelf-section" id="shelf">
+    <p class="eyebrow">{{ d().shelf.eyebrow }}</p>
+    <h2>{{ d().shelf.title }}</h2>
+    <p class="lead">{{ d().shelf.lead }}</p>
+
+    <div class="shelf" aria-hidden="true">
+      <div class="shelf-row">
+        @for (c of shelfCarts.slice(0, 4); track c.title + $index) {
+          <div class="cart cart-small" [style.--art]="c.art" [style.--band]="c.band">
+            <div class="cart-art"></div>
+            <div class="cart-label"><span class="cart-title">{{ c.title }}</span></div>
+          </div>
+        }
+      </div>
+      <div class="shelf-row">
+        @for (c of shelfCarts.slice(4); track c.title + $index) {
+          <div class="cart cart-small" [style.--art]="c.art" [style.--band]="c.band">
+            <div class="cart-art"></div>
+            <div class="cart-label"><span class="cart-title">{{ c.title }}</span></div>
+          </div>
+        }
+      </div>
+    </div>
+
+    <div class="actions">
+      <a class="btn btn-primary" routerLink="/ludotheque">{{ d().shelf.start }}</a>
+      <a class="btn btn-ghost" routerLink="/e/demo">{{ d().shelf.shared }}</a>
+    </div>
+
+    <ul class="trust">
+      @for (t of d().trust.items; track t.title) {
+        <li class="trust-card">
+          <h3>{{ t.title }}</h3>
+          <p>{{ t.text }}</p>
+        </li>
+      }
+    </ul>
+  </section>
+
+  <section class="section" id="faq">
+    <p class="eyebrow">{{ d().faq.eyebrow }}</p>
+    <h2>{{ d().faq.title }}</h2>
+
+    <div class="faq">
+      @for (item of d().faq.items; track item.q) {
+        <details class="faq-item">
+          <summary>{{ item.q }}</summary>
+          <p>{{ item.a }}</p>
+        </details>
+      }
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>{{ d().cta.title }}</h2>
+    <a class="btn btn-primary" routerLink="/ludotheque">{{ d().cta.open }}</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-text">
+    <span>{{ d().footer.project }}</span>
+    <span>{{ d().footer.data }}</span>
+    <a href="https://projectp.fr/">{{ d().footer.parent }}</a>
+  </div>
+</footer>

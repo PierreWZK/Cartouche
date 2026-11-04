@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "aria": "Navigation principale",
+    "how": "Comment ça marche",
+    "shelf": "L'étagère",
+    "faq": "Questions",
+    "open": "Ouvrir la ludothèque"
+  },
+  "hero": {
+    "eyebrow": "Jour 20 · 30 jours, 30 projets",
+    "line1": "La ludothèque",
+    "accent": "qui se feuillette.",
+    "lead": "Fouille une boîte de cartouches depuis ton téléphone. Filtre avec des étiquettes, compare deux notes et pose tes coups de cœur sur une étagère en bois.",
+    "open": "Ouvrir la ludothèque",
+    "demo": "Essayer le mode démo",
+    "note": "Gratuit · Jeux fournis par IGDB et RAWG"
+  },
+  "features": {
+    "eyebrow": "De la boîte à ton étagère",
+    "title": "Huit gestes, du premier coup d'œil à l'étagère.",
+    "lead": "Tout se fait au pouce. Explorer ne demande pas de compte.",
+    "items": [
+      { "title": "Feuillette les cartouches", "text": "Chaque jeu est une cartouche : jaquette, titre, plateforme, année. Fais défiler, la suivante arrive toute seule." },
+      { "title": "Filtre avec des étiquettes", "text": "Genre, plateforme, année, note. Les filtres se combinent et restent dans l'adresse : tu peux partager ta recherche." },
+      { "title": "Cherche pendant la frappe", "text": "Les résultats suivent tes doigts. Une ancienne réponse n'écrase jamais une plus récente." },
+      { "title": "Ouvre la fiche", "text": "Visuels, description, plateformes, studios et captures d'écran, sur une seule page." },
+      { "title": "Compare deux notes", "text": "La note de la communauté mondiale et celle des joueurs de Cartouche, côte à côte, sur la fiche comme dans la liste." },
+      { "title": "Pose-la sur l'étagère", "text": "Un favori, et la cartouche glisse à sa place sur ton étagère 3D. Elle y reste même si tu fermes l'onglet." },
+      { "title": "Exporte une image", "text": "Ton étagère, telle que tu la vois, en PNG au format d'un post ou d'une story. Fabriquée dans ton navigateur." },
+      { "title": "Partage par un lien", "text": "Un lien ouvre ton étagère chez un ami, en lecture seule. Pas de compte pour lui, rien à installer." }
+    ]
+  },
+  "shelf": {
+    "eyebrow": "Tes favoris",
+    "title": "Tes coups de cœur, rangés sur le vrai bois.",
+    "lead": "Chaque favori se pose sur ton étagère 3D, qui se remplit au fil de tes ajouts.",
+    "start": "Commencer mon étagère",
+    "shared": "Voir une étagère partagée",
+    "aria": "Étagère 3D de tes favoris",
+    "export": "Exporter en PNG",
+    "count": "cartouches posées",
+    "countOne": "cartouche posée",
+    "listTitle": "Sur cette étagère",
+    "makeYours": "Fais la tienne",
+    "emptyCta": "Trouver mes premiers jeux",
+    "empty": "Aucune cartouche sur l'étagère pour l'instant.",
+    "offline": "Les comptes ne sont pas activés sur ce serveur : pas de favoris à afficher.",
+    "signinNeeded": "Connecte-toi pour voir ton étagère et y ajouter des jeux.",
+    "copyLink": "Copier le lien de partage",
+    "copied": "Lien copié.",
+    "error": "Le lien n'a pas pu être créé.",
+    "sharedTitle": "Étagère partagée",
+    "sharedMissing": "Cette étagère n'existe pas ou n'est plus partagée."
+  },
+  "profile": {
+    "title": "Ma visibilité",
+    "username": "Pseudo",
+    "usernameHint": "3 à 20 caractères : lettres sans accent, chiffres, tirets et tirets bas.",
+    "public": "Étagère publique",
+    "publicOn": "Ton étagère est visible par tous, avec ton pseudo.",
+    "publicOff": "Ton étagère est privée : personne ne peut la voir, même avec le lien.",
+    "pageLink": "Ta page publique",
+    "save": "Enregistrer",
+    "saved": "Profil enregistré.",
+    "deleteTitle": "Supprimer mon compte",
+    "deleteHint": "Ton étagère, tes favoris et tes notes sont effacés définitivement. Saisis ton mot de passe pour confirmer.",
+    "deleteButton": "Supprimer définitivement",
+    "errors": {
+      "bad_username": "Pseudo invalide ou réservé.",
+      "username_taken": "Ce pseudo est déjà pris.",
+      "bad_password": "Mot de passe incorrect.",
+      "network": "Impossible d'enregistrer. Réessaie."
+    }
+  },
+  "exportPng": {
+    "title": "Exporter en PNG",
+    "square": "Carré",
+    "portrait": "Portrait",
+    "landscape": "Paysage",
+    "defaultName": "Ma collection",
+    "more": "et {n} autres",
+    "failed": "Export impossible. Réessaie."
+  },
+  "publicShelf": {
+    "missing": "Cette étagère n'existe pas ou n'est pas publique."
+  },
+  "trust": {
+    "items": [
+      { "title": "Favoris sur ton compte", "text": "Tes favoris et tes notes sont enregistrés. Tu les retrouves d'un appareil à l'autre." },
+      { "title": "Mode démo hors ligne", "text": "Un catalogue d'exemple qui marche sans réseau et sans compte." },
+      { "title": "Un catalogue immense", "text": "La base de jeux vient de RAWG, la grande base ouverte de jeux vidéo." }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Ce qu'on nous demande.",
+    "items": [
+      { "q": "Faut-il créer un compte ?", "a": "Pour explorer, non : le catalogue et le mode démo sont ouverts. Pour garder tes favoris et tes notes, oui : ils sont enregistrés sur ton compte." },
+      { "q": "Que se passe-t-il si je change de téléphone ?", "a": "Tu te reconnectes et ton étagère revient à l'identique." },
+      { "q": "D'où vient la note de la communauté Cartouche ?", "a": "Des notes des comptes Cartouche : une note sur 5 par jeu et par personne." },
+      { "q": "Mon ami peut-il modifier mon étagère ?", "a": "Non. Un lien partagé l'affiche en lecture seule." },
+      { "q": "C'est quoi, le mode démo ?", "a": "Un catalogue d'exemple avec des données locales, qui marche sans réseau et sans compte." }
+    ]
+  },
+  "cta": {
+    "title": "Il reste de la place sur l'étagère.",
+    "open": "Ouvrir la ludothèque"
+  },
+  "catalogue": {
+    "title": "Explorer",
+    "searchLabel": "Rechercher un jeu",
+    "searchPlaceholder": "Rechercher un jeu…",
+    "genres": "Genres",
+    "decades": "Décennie",
+    "rating": "Note",
+    "ratingFrom": "{n} et plus",
+    "platforms": "Plateformes",
+    "sortLabel": "Trier",
+    "sort": { "name": "Nom", "year": "Année", "rating": "Note" },
+    "count": "jeux",
+    "countOne": "jeu",
+    "ratingRawg": "RAWG",
+    "ratingCart": "Cartouche",
+    "loading": "Chargement…",
+    "empty": "Aucun jeu ne correspond à ces filtres."
+  },
+  "fiche": {
+    "back": "Retour à la ludothèque",
+    "notFound": "Ce jeu n'est pas dans la ludothèque.",
+    "platforms": "Plateformes et genres",
+    "ratingRawg": "Communauté globale · RAWG",
+    "ratingCart": "Communauté Cartouche",
+    "addShelf": "Ajouter à l'étagère",
+    "shelfSoon": "Comptes indisponibles en mode démo.",
+    "removeShelf": "Retirer de l'étagère",
+    "screenshots": "Captures",
+    "shotAlt": "Capture {n} de {name}",
+    "signinToAdd": "Connecte-toi pour ajouter ce jeu",
+    "yourRating": "Ta note sur 5",
+    "rated": "Merci, ta note est enregistrée.",
+    "error": "Une erreur est survenue. Réessaie."
+  },
+  "account": {
+    "link": "Compte",
+    "title": "Mon compte",
+    "off": "Les comptes ne sont pas activés sur ce serveur. Le mode démo reste accessible.",
+    "explore": "Explorer la ludothèque",
+    "signedAs": "Connecté en tant que",
+    "myShelf": "Voir mon étagère",
+    "logout": "Se déconnecter",
+    "signin": "Se connecter",
+    "create": "Créer un compte",
+    "email": "Email",
+    "password": "Mot de passe",
+    "hint": "8 caractères minimum. Tes favoris et tes notes sont liés à ce compte.",
+    "errors": {
+      "bad_credentials": "Email ou mot de passe incorrect.",
+      "email_taken": "Un compte existe déjà avec cet email.",
+      "bad_email": "Cet email n'est pas valide.",
+      "bad_password": "Le mot de passe doit faire 8 caractères au moins.",
+      "too_many_attempts": "Trop d'essais avec cet email. Réessaie dans un quart d'heure.",
+      "network": "Impossible de joindre le serveur. Réessaie plus tard."
+    }
+  },
+  "appnav": {
+    "aria": "Navigation de l'application",
+    "explore": "Explorer",
+    "daily": "Jeu du jour",
+    "shelf": "Mon étagère",
+    "home": "Retour à l'accueil",
+    "demo": "Démo"
+  },
+  "daily": {
+    "title": "Jeu du jour",
+    "lead": "Remets ces cinq jeux dans l'ordre de leur sortie, du plus ancien au plus récent.",
+    "up": "Monter {name}",
+    "down": "Descendre {name}",
+    "validate": "Valider mon ordre",
+    "score": "{score} sur 5 bien placés",
+    "perfect": "Sans faute !",
+    "streak": "Série : {n} jour(s)",
+    "alreadyPlayed": "Tu as déjà joué aujourd'hui. Reviens demain pour un nouveau tirage.",
+    "otherDay": "Jeu d'un autre jour : tu vois l'ordre de sortie, mais tu ne peux plus rejouer.",
+    "share": "Partager",
+    "copy": "Copier le lien",
+    "copied": "Lien copié.",
+    "copyFailed": "Copie automatique impossible : copie le lien ci-dessous.",
+    "shareText": "Cartouche · Jeu du jour {day}"
+  },
+  "footer": {
+    "project": "Cartouche · jour 20 sur 30",
+    "data": "Données de jeux : IGDB et RAWG",
+    "parent": "30 jours, 30 projets",
+    "language": "Langue"
+  },
+  "siteTitle": "Cartouche · La ludothèque qui se feuillette"
+}
