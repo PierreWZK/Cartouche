@@ -66,8 +66,8 @@ npm test                     # 14 tests : API, comptes et favoris sur PostgreSQL
 
 Deux services, à partir du dépôt :
 
-1. **API** : Dockerfile `api/Dockerfile`, port 3000, variables ci-dessus. Son nom de service doit être `api` (le front le joint par ce nom).
-2. **Front** : Dockerfile `front/Dockerfile`, port 80, domaine `cartouche.projectp.fr`. `front/nginx.conf` relaie `/api/` vers le service `api`.
+1. **API** : Dockerfile `api/Dockerfile`, port 3000, variables ci-dessus. Alias réseau Coolify `cartouche-api` (le front le joint par ce nom).
+2. **Front** : Dockerfile `front/Dockerfile`, port 80, domaine `cartouche.projectp.fr`. `front/nginx.conf` relaie `/api/` vers `cartouche-api`.
 
 La base PostgreSQL est créée à la première exécution de l'API (`migrate`).
 
