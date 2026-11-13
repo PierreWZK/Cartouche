@@ -1,6 +1,14 @@
 # Cartouche · La ludothèque qui se feuillette
 
-> Jour 20 du défi **30 jours, 30 projets** · Angular · Node.js · PostgreSQL · Three.js · ✅ **Terminé** (en attente de mise en ligne)
+🌐 **[cartouche.projectp.fr](https://cartouche.projectp.fr/)** · Jour 20 du défi **[30 jours, 30 projets](https://projectp.fr/)** · [Dépôt du défi](https://github.com/PierreWZK/30DaysProjects)
+
+Stack : Angular, Node.js, PostgreSQL, Three.js · ✅ Terminé.
+
+[![Page d'accueil de Cartouche](docs/preview-accueil.png)](https://cartouche.projectp.fr/)
+
+<p align="center">
+  <img src="docs/preview-mobile.png" alt="Cartouche sur téléphone" width="260">
+</p>
 
 Une ludothèque de jeux vidéo, pensée mobile first : chaque jeu est une cartouche qu'on feuillette, qu'on filtre avec des étiquettes et qu'on met en favoris. Les favoris s'empilent sur une **étagère 3D** qu'on exporte en PNG ou qu'on partage par un lien en lecture seule. Les jeux viennent de **RAWG** (et **IGDB** pour compléter une description). Sans clé, le mode démo fonctionne avec des données locales.
 
@@ -86,3 +94,14 @@ Angular 22 · TypeScript · Three.js · Node.js · Express 5 · PostgreSQL · ng
 - **Indexation** : `robots.txt`, `sitemap.xml`, balise canonical, données structurées JSON-LD (`WebApplication` rattachée à ProjectP) et lien « 30 jours, 30 projets » vers https://projectp.fr/ dans le pied de page. Vérifier en ligne, puis me rappeler de soumettre `https://cartouche.projectp.fr/sitemap.xml` dans Google Search Console.
 - **Aperçu du lien** : image Open Graph stylisée 1200 × 630 aux couleurs du projet et balises `og:*` / `twitter:card`, vérifiées en ligne.
 - **Vitrine** : la mise à jour de `30days30projects` (README et `projects.js`) se fait **après ma validation**.
+
+---
+
+## Le défi 30 jours, 30 projets
+
+Un projet complet par jour pendant 30 jours, chacun en ligne sur son propre sous-domaine.
+
+- 🗂️ **Tous les projets** : [projectp.fr](https://projectp.fr/)
+- 💻 **Le dépôt du défi** : [github.com/PierreWZK/30DaysProjects](https://github.com/PierreWZK/30DaysProjects)
+- ⬅️ **Jour précédent** : [Bolduc, listes de cadeaux](https://bolduc.projectp.fr/)
+- ➡️ **Jour suivant** : [Voyant, contrôle technique en 3D](https://voyant.projectp.fr/)
